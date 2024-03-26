@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "expenses",
-    "slug": "expenses",
+    "name": "quiz-mobiles",
+    "slug": "quiz-mobile",
+    "scheme": "quiz-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +26,23 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3242b54b-5fb5-4f16-b35c-4670bf0cc6fe"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3242b54b-5fb5-4f16-b35c-4670bf0cc6fe"
     }
   }
 }
